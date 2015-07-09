@@ -34,7 +34,7 @@ environments {
             driverClassName = "com.mysql.jdbc.Driver"
 			username = System.getenv('PF_MYSQL_DB_USERNAME')
 			password = System.getenv('PF_MYSQL_DB_PASS')
-			url = "jdbc:mysql://localhost:3306/pf"	
+			url = System.getenv('PF_MYSQL_DB_URL')//"jdbc:mysql://localhost:3306/pf"	
             properties {
                // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
                jmxEnabled = true
