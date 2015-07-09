@@ -1,5 +1,6 @@
-package personal.financier
+package io.dmalone.personalfinancier
 
+import io.dmalone.personalfinancier.BudgetController;
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 

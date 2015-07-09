@@ -1,6 +1,9 @@
-package personal.financier
+package io.dmalone.personalfinancier
 
 import org.apache.commons.lang.StringUtils
+
+import io.dmalone.personalfinancier.Expense;
+import io.dmalone.personalfinancier.Income;
 
 class BudgetController {
 

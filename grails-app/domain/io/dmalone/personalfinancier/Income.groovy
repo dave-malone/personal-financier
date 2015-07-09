@@ -1,4 +1,4 @@
-package personal.financier
+package io.dmalone.personalfinancier
 
 import org.junit.Before;
 

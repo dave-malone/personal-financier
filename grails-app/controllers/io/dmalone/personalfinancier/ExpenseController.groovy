@@ -1,8 +1,9 @@
-package personal.financier
+package io.dmalone.personalfinancier
 
 
 
 import static org.springframework.http.HttpStatus.*
+import io.dmalone.personalfinancier.Expense
 import grails.transaction.Transactional
 
 @Transactional(readOnly = true)

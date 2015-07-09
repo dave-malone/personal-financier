@@ -1,13 +1,14 @@
-package personal.financier
+package io.dmalone.personalfinancier
 
+import io.dmalone.personalfinancier.Income;
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
 /**
  * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
  */
-@TestFor(Expense)
-class ExpenseSpec extends Specification {
+@TestFor(Income)
+class IncomeSpec extends Specification {
 
     def setup() {
     }

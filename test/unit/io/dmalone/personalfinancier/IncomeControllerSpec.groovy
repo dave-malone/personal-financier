@@ -1,7 +1,9 @@
-package personal.financier
+package io.dmalone.personalfinancier
 
 
 
+import io.dmalone.personalfinancier.Income;
+import io.dmalone.personalfinancier.IncomeController;
 import grails.test.mixin.*
 import spock.lang.*
 

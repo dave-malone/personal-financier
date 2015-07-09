@@ -1,5 +1,5 @@
-import personal.financier.Expense
-import personal.financier.Income
+import io.dmalone.personalfinancier.Expense
+import io.dmalone.personalfinancier.Income
 
 class BootStrap {
 

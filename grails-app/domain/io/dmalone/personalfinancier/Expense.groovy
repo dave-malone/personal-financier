@@ -1,4 +1,4 @@
-package personal.financier
+package io.dmalone.personalfinancier
 
 
 class Expense {
