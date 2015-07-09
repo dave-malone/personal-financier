@@ -1,4 +1,4 @@
-<%@ page import="personal.financier.Expense" %>
+<%@ page import="io.dmalone.personalfinancier.Expense" %>
 <!DOCTYPE html>
 <html>
 	<head>

@@ -1,5 +1,5 @@
 
-<%@ page import="personal.financier.Income" %>
+<%@ page import="io.dmalone.personalfinancier.Income" %>
 <!DOCTYPE html>
 <html>
 	<head>

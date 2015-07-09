@@ -1,11 +1,11 @@
-<%@ page import="personal.financier.Expense" %>
+<%@ page import="io.dmalone.personalfinancier.Expense" %>
 
 <div class="fieldcontain ${hasErrors(bean: expenseInstance, field: 'expenseType', 'error')} required">
 	<label for="expenseType">
 		<g:message code="expense.expenseType.label" default="Expense Type" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select name="expenseType" from="${personal.financier.Expense$ExpenseType?.values()}" keys="${personal.financier.Expense$ExpenseType.values()*.name()}" required="" value="${expenseInstance?.expenseType?.name()}" />
+	<g:select name="expenseType" from="${io.dmalone.personalfinancier.Expense$ExpenseType?.values()}" keys="${io.dmalone.personalfinancier.Expense$ExpenseType.values()*.name()}" required="" value="${expenseInstance?.expenseType?.name()}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: expenseInstance, field: 'name', 'error')} required">

@@ -1,4 +1,4 @@
-<%@ page import="personal.financier.Income" %>
+<%@ page import="io.dmalone.personalfinancier.Income" %>
 
 
 
@@ -25,7 +25,7 @@
 		<g:message code="income.incomeFrequency.label" default="Income Frequency" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:select name="incomeFrequency" from="${personal.financier.Income$IncomeFrequency?.values()}" keys="${personal.financier.Income$IncomeFrequency.values()*.name()}" required="" value="${incomeInstance?.incomeFrequency?.name()}" />
+	<g:select name="incomeFrequency" from="${io.dmalone.personalfinancier.Income$IncomeFrequency?.values()}" keys="${io.dmalone.personalfinancier.Income$IncomeFrequency.values()*.name()}" required="" value="${incomeInstance?.incomeFrequency?.name()}" />
 
 </div>
 
